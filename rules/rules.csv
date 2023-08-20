@@ -1,0 +1,21 @@
+rule_id,description,condition,severity
+1,Strong Password Policy,Minimum 8 characters with uppercase, lowercase, digits, special characters,High
+2,Access Control Enforcement,Only authorized users have access,Medium
+3,Secure Payment Handling,SSL encryption for payment transactions,High
+4,Data Encryption,Sensitive data must be encrypted at rest and in transit,High
+5,Regular Security Audits,Conduct security audits every 6 months,Medium
+6,User Account Lockout,Account locked after 5 unsuccessful login attempts,Medium
+7,Two-Factor Authentication,Enable 2FA for admin accounts,High
+8,Patch Management,Apply security patches within 30 days of release,Medium
+9,Session Timeout,Auto-logout after 15 minutes of inactivity,Medium
+10,Sensitive Data Handling,Mask sensitive data in logs and reports,Medium
+11,Access Logging,Log access to sensitive data and admin actions,High
+12,Whitelisting,Allowlist known IPs for admin access,High
+13,Data Retention,Delete customer data after 2 years of inactivity,Medium
+14,Privacy Policy,Display and adhere to privacy policy on the website,High
+15,Backup and Disaster Recovery,Regularly backup data and test recovery procedures,High
+16,Employee Training,Mandatory security training for all employees,High
+17,Third-Party Vendor Security,Ensure third-party vendors adhere to security standards,Medium
+18,Incident Response Plan,Maintain and test an incident response plan,High
+19,Network Segmentation,Segment network to isolate sensitive data,High
+20,Audit Trail,Maintain an audit trail for critical operations,High
