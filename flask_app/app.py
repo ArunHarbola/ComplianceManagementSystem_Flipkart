@@ -102,7 +102,7 @@ def preprocess_data(data):
     # autoencoder.compile(optimizer='adam', loss='mean_squared_error')
     # autoencoder.fit(X_train, X_train, epochs=50, batch_size=32, shuffle=True, validation_data=(X_test, X_test))
 
-    autoencoder = load_model('C:/Users/arunh/Downloads/Flipkart (2)/Flipkart/test/autoencoder_model.h5')
+    autoencoder = load_model('./autoencoder_model.h5')
     
     # Reconstruct the data using the trained autoencoder
     reconstructed_data = autoencoder.predict(scaled_features)
